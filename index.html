@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pet</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/000/079/896/original/paw-print-vector-icon.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Cadastro de Pet</h1>
+        <form action="#" method="post">
+            <label for="NomezinhoPet">Nome do Pet:</label>
+            <input type="text" id="NomezinhoPet" name="NomezinhoPet" required>
+            
+            <label for="QualAnimal">Tipo de Animal:</label>
+            <select id="QualAnimal" name="QualAnimal" required>
+                <option value="cachorro">Cachorro</option>
+                <option value="gato">Gato</option>
+                <option value="passaro">Pássaro</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            <label for="idadePet">Idade:</label>
+            <input type="number" id="idadePet" name="idadePet" required>
+            
+            <label for="NomeDono">Nome do Dono:</label>
+            <input type="text" id="NomeDono" name="NomeDono" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>

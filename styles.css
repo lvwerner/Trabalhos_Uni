@@ -1,0 +1,67 @@
+body {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    /* background-color: #424242; */
+    background-image: url(https://th.bing.com/th/id/R.d08915f750bbf37de617f2980af4560a?rik=9sWX6TD%2bxcv8Wg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 60%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #9c28a7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6200ff;
+    transform: scale(1.02);
+}
+
+button:active {
+    transform: scale(0.9);
+}
